@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.13.6/dist/full.css" rel="stylesheet" type="text/css" />
-    <!-- <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css"> -->
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
     <title>Portfolio</title>
 </head>
 
@@ -65,7 +63,37 @@
       <div class="divider"></div>
 
       <section id="projects-section">
-        <h2 class="text-3xl">Projects: </h2>
+        <div class="card w-5/6 bg-base-200 shadow-xl m-auto mb-3">
+          <h2 class="text-3xl">Projects: </h2>
+          <div class="flex flex-col sm:flex-row">
+            <div class="card m-auto sm:m-2 sm:w-1/2 bg-base-300 hover:m-0" id="pethub">
+              <figure><img src="./assets/images/pethub.png" class="w-full" id="pethub-image"/></figure>
+
+              <h3 class="card-title">Pethub</h3>
+              <p>Pethub is a web app for anyone interested in responsibly adopting a pet. On our webapp you can find pets in all areas to adopt. 
+                Even if you do not want to make the committment yet in adopting an animal, but still want to contribute to animals in need, we have a 
+                charity page that brings you to charities in all locations. If you are unsure of where to donate, there is a recommended list of charities available and much more.</p>
+              <div class="card-actions justify-center m-3">
+                <a href="https://cmwschroeder.github.io/pethub/" target="_blank" class="btn btn-primary">Visit Site</a>
+                <a href="https://github.com/cmwschroeder/pethub" target="_blank" class="btn btn-secondary">Visit Repo</a>
+              </div>
+            </div>
+
+            <div class="card m-auto sm:m-2 sm:w-1/2 bg-base-300 hover:m-0" id="weather-dashboard">
+              <figure><img src="./assets/images/weather-dashboard.png" class="w-full" id="weather-dashboard-image"/></figure>
+
+              <h3 class="card-title">Weather Dashboard</h3>
+              <p>This webpage is a weather dashboard application. Just search for your city and it'll display the current weather and the next 5 day forecast. It also keeps track
+                of your previous searches so don't worry about having to type the search in again, just click on the button with that cities name. If you want to clear your previous searches 
+                just click the red button to clear your searches and start anew.
+              </p>
+              <div class="card-actions justify-center m-3">
+                <a href="https://cmwschroeder.github.io/weather-dashboard/" target="_blank" class="btn btn-primary">Visit Site</a>
+                <a href="https://github.com/cmwschroeder/weather-dashboard" target="_blank" class="btn btn-secondary">Visit Repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer class="footer items-center p-4 bg-neutral text-neutral-content">
@@ -82,8 +110,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- <script src="./assets/ani/anijs.js"></script>
-    <script src="./assets/ani/helpers/scrollreveal/anijs-helper-scrollreveal.js"></script> -->
     <script src="./assets/js/script.js"></script>
 </body>
 
