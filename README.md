@@ -26,3 +26,7 @@ This webpage is a porfolio that shows my work. It has a navbar that will take yo
 https://cmwschroeder.github.io/portfolio/
 
 ## Usage
+
+This page does not do much dynamically besides linking to other pages that show my work, opening a link to my resume, and hovering over project cards to view gifs. Here is the webpage in action:
+
+![Gif of scrolling through the webpage](./assets/gifs/Portfolio.gif)
